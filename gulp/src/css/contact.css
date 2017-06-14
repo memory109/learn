@@ -1,0 +1,96 @@
+#content{
+	width:1423px;
+	height:920px;
+	margin-top: -60px;
+}
+#content>div{
+	width:960px;
+	margin: 0px auto;
+}
+#c-up{
+	width: 960px;
+	height: 340px;
+}
+#c-up1{
+	width:500px;
+	height:340px;
+	float: left;
+
+}
+#c-up1 h1{
+	color:#84284d;
+	text-indent: 1em;
+	font-style: oblique;
+}
+#c-up1 p{
+	margin-left: 24px;
+	line-height: 30px;
+	text-align: left;
+	word-spacing: 6px;
+	word-wrap:break-word;
+}
+#c-up1 input[type="text"]{
+	width: 360px;
+	border:1px solid #ccc;
+	border-radius: 10px;
+	outline: none;
+	margin-top: 34px;
+	padding-left: 5px;
+	margin-left: 22px;
+}
+#c-up2{
+	width:460px;
+	height: 290px;
+	float: left;
+	margin-top: 50px;
+	background: url(img/bg-sweets.gif) no-repeat;
+
+}
+#c-up2>div{
+	width:460px;
+	height: 205px;
+	background: url(img/pie.jpg) no-repeat 200px bottom;
+}
+#c-up2 h1{
+	padding-top: 25px;
+	text-indent: 0.5em;
+	color: #d14688;
+}
+#c-up2 h2{
+	text-indent: 1em;
+	color: #6f3f52;
+}
+#c-down{
+	width:940px;
+	height:400px;
+	padding-left: 20px;
+}
+#c-up2>div a{
+	display: block;
+	width:150px;
+	height: 40px;
+	background:-webkit-linear-gradient(top,#faebec 10%,#f7dee1 40%,#f4d3d4 ); 
+	border:1px solid #6f3f52;
+	font-size: 20px;
+	border-radius: 10px;
+	color:#6f3f52;
+	text-align: center;
+	line-height: 40px;
+	position: relative;
+	top:40px;
+	left: 30px;
+	text-decoration: none;
+}
+
+#c-down input[type='submit']{
+	width:120px;
+	height:25px;
+	font-size: 18px;
+	border-radius: 6px;
+	color:#6f3f52;
+	background-color: #f7e0e3;
+	border:1px solid #6f3f52;
+	margin-left: 775px;
+	margin-top: 10px;
+	cursor: pointer;
+}

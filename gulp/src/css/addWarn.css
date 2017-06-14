@@ -1,0 +1,124 @@
+.modal{
+	position: fixed;
+	top:0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background: rgba(0,0,0,0.5);
+	font-size: 16px;
+} 
+
+.modal .modal-content{
+	width:600px;
+	margin:100px auto;
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+.modal .modal-content .modal-header{
+	padding: 12px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.modal .modal-content .modal-header .modal-title{
+	font-size: 21px;
+	font-weight: 200;
+	display: inline-block;
+	margin:0px;
+}
+
+.modal .modal-content .modal-header .close{
+	display: inline-block;
+	font-size: 25px;
+	font-weight: bolder;
+	float: right;
+	cursor: pointer;
+}
+
+.modal .modal-content .modal-body{
+	position: relative;
+	padding: 20px 30px;
+}
+
+.modal .modal-content .modal-body .table{
+	width: 100%;
+	font-size: 0px;
+}
+.modal .modal-content .modal-body .table h4{
+	margin: 0px;
+	font-weight: normal;
+	font-size: 18px;
+}
+
+.modal .modal-content .modal-body .table td{
+	border: none;
+	padding: 5px 0px;
+	vertical-align: top;
+}
+.modal .modal-content .modal-body .table td:nth-child(2n-1){
+	width: 90px;
+}
+
+.modal .modal-content .modal-body .table input{
+	padding: 5px 2px;
+}
+.modal .modal-content .modal-body .table .warn-name input{
+	width: 95%;
+}
+.modal .modal-content .modal-body .table .warn-condition select{
+	width: 110px;
+	padding: 5px 2px;
+	cursor: pointer;
+	border-right: 0px;
+}
+.modal .modal-content .modal-body .table .warn-condition input[type="text"]{
+	width: calc(95% - 110px);
+}
+.modal .modal-content .modal-body .table .button{
+	color: #fff;
+	background-color: #5bc0de;
+	border-color: #46b8da;
+	display: block;
+	margin: 10px 0px;
+	padding: 5px 13px;
+	font-weight: bolder;
+	border: 1px solid transparent;
+	font-size: 15px;
+}
+.modal .modal-content .modal-body .table .warn-way div{
+	margin-top: 10px; 
+}
+.modal .modal-content .modal-body .table .warn-way input[type='checkbox']{
+	width:20px;
+	height: 20px;
+	vertical-align: top;
+	cursor: pointer;
+	margin:5px;
+}
+.modal .modal-content .modal-body .table .warn-way label{
+	display: inline-block;
+	width: 35px;
+	font-size: 16px;
+	cursor: pointer;
+}
+.modal .modal-content .modal-body .table .warn-way input[type="text"]{
+	width: calc(95% - 65px);
+}
+.modal .modal-content .modal-body .table .warn-content textarea{
+	width: 95%;
+	height:80px;
+	resize: none;
+	padding: 5px 3px;
+}
+
+.modal .modal-content .modal-body .table .relate .btn{
+	width: 90px;
+	padding: 9px 12px;
+	color: #fff;
+	background-color: #5bc0de;
+	border-color: #46b8da; 
+	text-align: center;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	cursor: pointer;
+}
